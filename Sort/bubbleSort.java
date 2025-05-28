@@ -5,9 +5,9 @@
  */
 
 public static int[] bubbleSort(int[] arr){
-  for(int i = 1; i < arr.length(); i++){
+  for(int i = 1; i < arr.length; i++){
     boolean flag = true;
-    for(int j = 0; j < arr.length() - i; j++){
+    for(int j = 0; j < arr.length - i; j++){
       if(arr[j] > arr[j + 1]){
         int tmp = arr[j];
         arr[j] = arr[j + 1];
